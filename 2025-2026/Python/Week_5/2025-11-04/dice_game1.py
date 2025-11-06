@@ -11,5 +11,3 @@ def roll_die_simulation():
         roll_result = random.randint(1, 6)
         print(f"You rolled a {roll_result}!")
 roll_die_simulation()
-
-
