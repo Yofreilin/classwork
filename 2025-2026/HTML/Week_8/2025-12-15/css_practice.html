@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    /*please put a CSS selector on the below ruleset to make it select the class called "one"*/
+    .one{color: blue;}
+    /*please put a CSS selector on the below ruleset to make it select all p tags*/
+    p{margin: 6px 0px;}
+    /*please put a CSS selector on the below ruleset to make it select all <h1> tags*/
+    h1{background-color:#dddddd}
+    /*please put a CSS selector on the below ruleset to make it select the class called "darkGrey"*/
+    .darkGrey{background-color: #555; color: #fff}
+    /*please put a CSS selector on the below ruleset to make it select the id called "two"*/
+    #second{background: purple; color:white}
+    /*please put a CSS selector on the below ruleset to make it select the all the li tags except the first*/
+    li~li{color: green;}
+    /*please put a CSS selector on the below ruleset to make it select button tags when you click down on them*/
+    button:active{background-color:sandybrown;}
+    /*please put a CSS selector on the below ruleset to make it select button tags when you hover over them*/
+    button:hover{background-color: deeppink;}
+    /*please put a CSS selector on the below ruleset to make it all button tags*/
+    .n, {font-weight: bold}
+    /*please put a CSS selector on the below ruleset to make it select the body tag*/
+    {font-size:1.5em;}
+  </style>
+</head>
+<body>
+<header class="darkGrey">
+  <h1>The Main Idea</h1>
+  <button>Im am button</button>
+</header>
+<main>
+  <div class="one">
+    <p>one text</p>
+  </div>
+  <div class="two" id="second">
+    <p>two text</p>
+  </div>
+  <div class="one">
+    <p>one text</p>
+  </div>
+  <ul>
+    <li>a bullet</li>
+    <li>a bullet</li>
+    <li>a bullet</li>
+    <li>a bullet</li>
+  </ul>
+</main>
+<footer class="darkGrey">
+  <h3>The stuff at the bottom of the page</h3>
+  <button>Im am button</button>
+</footer>
+</body>
+</html>
