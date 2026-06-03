@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            border: 2px solid black;
+            height: 900px;
+            margin-top: 20px;
+
+            /* Add Flexbox properties below */
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            border: 1px solid black;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Flexbox Practice</title>
+    <link rel="stylesheet" href="styles/flex_style.css">
+</head>
+<body>
+
+<h1>Flexbox Practice</h1>
+
+<div class="container">
+    <div class="box">1</div>
+    <div class="box">2</div>
+    <div class="box">3</div>
+</div>
+
+</body>
+</html>
